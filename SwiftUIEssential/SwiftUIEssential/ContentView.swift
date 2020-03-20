@@ -12,6 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             MapView().frame(height: 300)
+            CircleImage()
             VStack(alignment: .leading) {
                 Text("Hello, World!")
                     .font(.title).foregroundColor(.black)
