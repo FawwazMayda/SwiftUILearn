@@ -13,8 +13,13 @@ struct ContentView: View {
         VStack(alignment: .leading) {
             Text("Hello, World!")
                 .font(.title).foregroundColor(.black)
-            Text("Joshua Tree National Park")
-                .font(.subheadline)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }.padding()
         }
     }
 }
