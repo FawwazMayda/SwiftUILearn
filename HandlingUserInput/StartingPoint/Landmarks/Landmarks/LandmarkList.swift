@@ -8,6 +8,7 @@ A view showing a list of landmarks.
 import SwiftUI
 
 struct LandmarkList: View {
+    @State var showFavouritesOnly : Bool
     var body: some View {
         NavigationView {
             List(landmarkData) { landmark in
