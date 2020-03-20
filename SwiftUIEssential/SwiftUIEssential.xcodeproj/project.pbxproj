@@ -16,6 +16,7 @@
 		4DC0573D2424B4BF00CE901E /* SwiftUIEssentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0573C2424B4BF00CE901E /* SwiftUIEssentialTests.swift */; };
 		4DC057482424B4BF00CE901E /* SwiftUIEssentialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC057472424B4BF00CE901E /* SwiftUIEssentialUITests.swift */; };
 		4DC057562424BE2300CE901E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC057552424BE2300CE901E /* CircleImage.swift */; };
+		4DC057582424BFB800CE901E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC057572424BFB800CE901E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4DC057472424B4BF00CE901E /* SwiftUIEssentialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEssentialUITests.swift; sourceTree = "<group>"; };
 		4DC057492424B4BF00CE901E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC057552424BE2300CE901E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4DC057572424BFB800CE901E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				4DC057272424B4BE00CE901E /* SceneDelegate.swift */,
 				4DC057292424B4BE00CE901E /* ContentView.swift */,
 				4DC057552424BE2300CE901E /* CircleImage.swift */,
+				4DC057572424BFB800CE901E /* MapView.swift */,
 				4DC0572B2424B4BE00CE901E /* Assets.xcassets */,
 				4DC057302424B4BE00CE901E /* LaunchScreen.storyboard */,
 				4DC057332424B4BE00CE901E /* Info.plist */,
@@ -272,6 +275,7 @@
 			files = (
 				4DC057262424B4BE00CE901E /* AppDelegate.swift in Sources */,
 				4DC057562424BE2300CE901E /* CircleImage.swift in Sources */,
+				4DC057582424BFB800CE901E /* MapView.swift in Sources */,
 				4DC057282424B4BE00CE901E /* SceneDelegate.swift in Sources */,
 				4DC0572A2424B4BE00CE901E /* ContentView.swift in Sources */,
 			);
