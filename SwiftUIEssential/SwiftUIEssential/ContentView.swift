@@ -10,16 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Hello, World!")
-                .font(.title).foregroundColor(.black)
-            HStack {
-                Text("Joshua Tree National Park")
-                    .font(.subheadline)
-                Spacer()
-                Text("California")
-                    .font(.subheadline)
-            }.padding()
+        VStack {
+            MapView().frame(height: 300)
+            VStack(alignment: .leading) {
+                Text("Hello, World!")
+                    .font(.title).foregroundColor(.black)
+                HStack {
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
+                }.padding()
+            }
         }
     }
 }
