@@ -12,7 +12,7 @@ struct LandmarkList: View {
     var body: some View {
         NavigationView {
             List {
-                Toggle(isOn: $showFavouritesOnly) {
+                Toggle(isOn: $userData.showFavouritesOnly) {
                     Text("Favorite Only")
                 }
                 ForEach(landmarkData) {
