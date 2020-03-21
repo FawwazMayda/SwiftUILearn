@@ -10,7 +10,11 @@ import SwiftUI
 
 struct Badge: View {
     var body: some View {
-        Text("BAdge")
+        Path {
+            path in
+            
+        }
+        .fill(Color.black)
     }
 }
 
