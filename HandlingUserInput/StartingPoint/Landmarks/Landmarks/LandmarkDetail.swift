@@ -8,7 +8,11 @@ A view showing the details for a landmark.
 import SwiftUI
 
 struct LandmarkDetail: View {
+    @EnvironmentObject var userData : UserData
     var landmark: Landmark
+    var landmarkIndex : Int {
+        userData.landmark.first(where: { $0.id==landmark.id})
+    }
 
     var body: some View {
         VStack {
