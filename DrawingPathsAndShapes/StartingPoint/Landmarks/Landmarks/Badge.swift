@@ -23,6 +23,14 @@ struct Badge: View {
                         y: height * $0.useHeight.0 * $0.yFactors.0
                     )
                 )
+                
+                path.addQuadCurve(
+                    to: .init(
+                        x: width * $0.useWidth.1 * $0.xFactors.1,
+                        y: height * $0.useHeight.1 * $0.yFactors.1)
+                    , control: .init(
+                        x: width * $0.useWidth.2 * $0.xFactors.2,
+                        y: height * $0.useHeight.2 * $0.yFactors.2))
             }
             
         }
