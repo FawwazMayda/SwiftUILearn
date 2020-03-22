@@ -9,7 +9,11 @@ import SwiftUI
 
 extension AnyTransition {
     static var moveAndFade : AnyTransition {
-        AnyTransition.slide
+        let insertion = AnyTransition.scale.combined(with: .opacity)
+        let removal = AnyTransition.move(edge: .leading)
+            .combined(with: .opacity)
+        return .asymmetric(insertion: insertion, removal: removal)
+        
     }
 }
 struct HikeView: View {
