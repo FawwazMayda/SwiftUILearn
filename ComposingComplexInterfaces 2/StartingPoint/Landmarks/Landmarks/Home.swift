@@ -19,7 +19,11 @@ struct CategoryHome: View {
     
     var body: some View {
         NavigationView {
-            Text("Landmark Home")
+            List {
+                ForEach(categories.keys.sorted(), id: \.self) { key in
+                    Text(key)
+                }
+            }
             .navigationBarTitle(Text("Landmark Home"))
         }
     }
